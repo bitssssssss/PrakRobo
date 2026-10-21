@@ -1,0 +1,55 @@
+[1.137s] Invoking command in '/ws/src/lab_comm': PYTHONPATH=/ws/src/build/lab_comm/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/ws/src/install/lab_comm/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/lab_comm build --build-base /ws/src/build/lab_comm/build install --record /ws/src/build/lab_comm/install.log --install-scripts $base/lib/lab_comm --single-version-externally-managed install_data
+[1.577s] running egg_info
+[1.578s] creating ../build/lab_comm/lab_comm.egg-info
+[1.579s] writing ../build/lab_comm/lab_comm.egg-info/PKG-INFO
+[1.579s] writing dependency_links to ../build/lab_comm/lab_comm.egg-info/dependency_links.txt
+[1.579s] writing entry points to ../build/lab_comm/lab_comm.egg-info/entry_points.txt
+[1.580s] writing requirements to ../build/lab_comm/lab_comm.egg-info/requires.txt
+[1.580s] writing top-level names to ../build/lab_comm/lab_comm.egg-info/top_level.txt
+[1.580s] writing manifest file '../build/lab_comm/lab_comm.egg-info/SOURCES.txt'
+[1.583s] reading manifest file '../build/lab_comm/lab_comm.egg-info/SOURCES.txt'
+[1.585s] writing manifest file '../build/lab_comm/lab_comm.egg-info/SOURCES.txt'
+[1.585s] running build
+[1.586s] running build_py
+[1.586s] creating /ws/src/build/lab_comm/build
+[1.586s] creating /ws/src/build/lab_comm/build/lib
+[1.586s] creating /ws/src/build/lab_comm/build/lib/lab_comm
+[1.586s] copying lab_comm/sensor_publisher.py -> /ws/src/build/lab_comm/build/lib/lab_comm
+[1.587s] copying lab_comm/processing_node.py -> /ws/src/build/lab_comm/build/lib/lab_comm
+[1.587s] copying lab_comm/motion_action_server.py -> /ws/src/build/lab_comm/build/lib/lab_comm
+[1.587s] copying lab_comm/sensor_subscriber.py -> /ws/src/build/lab_comm/build/lib/lab_comm
+[1.587s] copying lab_comm/__init__.py -> /ws/src/build/lab_comm/build/lib/lab_comm
+[1.587s] copying lab_comm/reset_service.py -> /ws/src/build/lab_comm/build/lib/lab_comm
+[1.588s] running install
+[1.589s] running install_lib
+[1.590s] creating /ws/src/install/lab_comm/lib/python3.10/site-packages/lab_comm
+[1.590s] copying /ws/src/build/lab_comm/build/lib/lab_comm/sensor_publisher.py -> /ws/src/install/lab_comm/lib/python3.10/site-packages/lab_comm
+[1.590s] copying /ws/src/build/lab_comm/build/lib/lab_comm/processing_node.py -> /ws/src/install/lab_comm/lib/python3.10/site-packages/lab_comm
+[1.591s] copying /ws/src/build/lab_comm/build/lib/lab_comm/motion_action_server.py -> /ws/src/install/lab_comm/lib/python3.10/site-packages/lab_comm
+[1.591s] copying /ws/src/build/lab_comm/build/lib/lab_comm/sensor_subscriber.py -> /ws/src/install/lab_comm/lib/python3.10/site-packages/lab_comm
+[1.591s] copying /ws/src/build/lab_comm/build/lib/lab_comm/__init__.py -> /ws/src/install/lab_comm/lib/python3.10/site-packages/lab_comm
+[1.592s] copying /ws/src/build/lab_comm/build/lib/lab_comm/reset_service.py -> /ws/src/install/lab_comm/lib/python3.10/site-packages/lab_comm
+[1.593s] byte-compiling /ws/src/install/lab_comm/lib/python3.10/site-packages/lab_comm/sensor_publisher.py to sensor_publisher.cpython-310.pyc
+[1.594s] byte-compiling /ws/src/install/lab_comm/lib/python3.10/site-packages/lab_comm/processing_node.py to processing_node.cpython-310.pyc
+[1.597s] byte-compiling /ws/src/install/lab_comm/lib/python3.10/site-packages/lab_comm/motion_action_server.py to motion_action_server.cpython-310.pyc
+[1.598s] Sorry: IndentationError: unexpected indent (motion_action_server.py, line 43)
+[1.599s] byte-compiling /ws/src/install/lab_comm/lib/python3.10/site-packages/lab_comm/sensor_subscriber.py to sensor_subscriber.cpython-310.pyc
+[1.599s] byte-compiling /ws/src/install/lab_comm/lib/python3.10/site-packages/lab_comm/__init__.py to __init__.cpython-310.pyc
+[1.599s] byte-compiling /ws/src/install/lab_comm/lib/python3.10/site-packages/lab_comm/reset_service.py to reset_service.cpython-310.pyc
+[1.600s] running install_data
+[1.601s] creating /ws/src/install/lab_comm/share/ament_index
+[1.601s] creating /ws/src/install/lab_comm/share/ament_index/resource_index
+[1.601s] creating /ws/src/install/lab_comm/share/ament_index/resource_index/packages
+[1.601s] copying resource/lab_comm -> /ws/src/install/lab_comm/share/ament_index/resource_index/packages
+[1.601s] copying package.xml -> /ws/src/install/lab_comm/share/lab_comm
+[1.602s] creating /ws/src/install/lab_comm/share/lab_comm/launch
+[1.602s] copying launch/lab_comm.launch.py -> /ws/src/install/lab_comm/share/lab_comm/launch
+[1.602s] running install_egg_info
+[1.605s] Copying ../build/lab_comm/lab_comm.egg-info to /ws/src/install/lab_comm/lib/python3.10/site-packages/lab_comm-0.0.0-py3.10.egg-info
+[1.608s] running install_scripts
+[1.651s] Installing motion_action_server script to /ws/src/install/lab_comm/lib/lab_comm
+[1.652s] Installing processing_node script to /ws/src/install/lab_comm/lib/lab_comm
+[1.652s] Installing reset_service script to /ws/src/install/lab_comm/lib/lab_comm
+[1.652s] Installing sensor_publisher script to /ws/src/install/lab_comm/lib/lab_comm
+[1.653s] writing list of installed files to '/ws/src/build/lab_comm/install.log'
+[1.697s] Invoked command in '/ws/src/lab_comm' returned '0': PYTHONPATH=/ws/src/build/lab_comm/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/ws/src/install/lab_comm/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/lab_comm build --build-base /ws/src/build/lab_comm/build install --record /ws/src/build/lab_comm/install.log --install-scripts $base/lib/lab_comm --single-version-externally-managed install_data
